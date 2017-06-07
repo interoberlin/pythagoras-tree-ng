@@ -1,0 +1,15 @@
+<svg [attr.height]="svgHeight" [attr.width]="svgWidth">
+  <!-- <rect [attr.height]="svgHeight" [attr.width]="svgWidth" [attr.fill]="svgFill"/> -->
+  <polygon [attr.points]="pointsRect" [attr.fill]="fill"
+           [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+  <polygon [attr.points]="pointsTriangle" [attr.fill]="fill"
+           [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+</svg>
+
+<app-pythagoras class="canvas" [iteration]="iteration-1" [svgHeight]="svgHeight" [svgWidth]="svgWidth"
+                [llCorner]="ulCorner"
+                [lrCorner]="topCorner" *ngIf="iteration > 0"></app-pythagoras>
+
+<app-pythagoras class="canvas" [iteration]="iteration-1" [svgHeight]="svgHeight" [svgWidth]="svgWidth"
+                [llCorner]="topCorner"
+                [lrCorner]="urCorner" *ngIf="iteration > 0"></app-pythagoras>

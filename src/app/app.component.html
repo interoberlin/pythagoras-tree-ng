@@ -1,3 +1,12 @@
-<h1>
-  {{title}}
-</h1>
+<app-pythagoras class="canvas" [iteration]="iterations" [svgHeight]="svgHeight" [svgWidth]="svgWidth"
+                [llCorner]="llCorner" [lrCorner]="lrCorner" [angleRad]="angleRad"></app-pythagoras>
+<form>
+  <div class="form-group">
+    <label for="angle">Angle</label>
+    <input [(ngModel)]="angleDeg" (ngModelChange)="valuechange($event)" type="number" class="form-control" name="angle"
+           id="angle" required>
+    <label for="iterations">Iterations</label>
+    <input [(ngModel)]="iterations" (ngModelChange)="valuechange($event)" type="number" class="form-control"
+           name="iterations" id="iterations" required>
+  </div>
+</form>
