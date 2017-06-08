@@ -23,6 +23,9 @@ export class PythagorasComponent implements OnChanges {
   @Input() urCorner;
   @Input() topCorner;
 
+  @Input() offsetX = 0;
+  @Input() offsetY = 0;
+
   pointsRect = '';
   pointsTriangle = '';
 
@@ -56,7 +59,7 @@ export class PythagorasComponent implements OnChanges {
 
     const uulCorner = new Point(this.ulCorner.x + (sin * dim), this.ulCorner.y - (cos * dim));
     // const uurCorner = new Point(this.urCorner.x + (sin * dim), this.urCorner.y - (cos * dim));
-    this.topCorner = new Point(this.ulCorner.x + (this.urCorner.x - this.ulCorner.x + sin * dim) / 2, this.ulCorner.y - (this.ulCorner.y - uulCorner.y - sin * dim) / 2);
+    this.topCorner = new Point(this.ulCorner.x + (this.urCorner.x - this.ulCorner.x + sin * (dim + this.offsetX)) / 2, this.ulCorner.y - (this.ulCorner.y - uulCorner.y - sin * (dim + this.offsetY)) / 2);
 
     // console.log(`ulCorner: ${JSON.stringify(this.ulCorner)}`);
     // console.log(`urCorner: ${JSON.stringify(this.urCorner)}`);

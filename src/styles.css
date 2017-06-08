@@ -1,6 +1,24 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Roboto', sans-serif;
+  margin: 0 !important;
+}
+
 .canvas {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   z-index: -1;
+}
+
+.mat-input-placeholder-wrapper {
+  color: grey !important;
+  position: absolute;
+  left: 0;
+  top: -1em;
+  width: 100%;
+  padding-top: 1em;
+  overflow: hidden;
+  pointer-events: none;
+  transform: translate3d(0,0,0);
 }

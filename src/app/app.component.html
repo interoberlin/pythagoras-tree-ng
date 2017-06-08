@@ -1,12 +1,81 @@
-<app-pythagoras class="canvas" [iteration]="iterations" [svgHeight]="svgHeight" [svgWidth]="svgWidth"
-                [llCorner]="llCorner" [lrCorner]="lrCorner" [angleRad]="angleRad"></app-pythagoras>
-<form>
-  <div class="form-group">
-    <label for="angle">Angle</label>
-    <input [(ngModel)]="angleDeg" (ngModelChange)="valuechange($event)" type="number" class="form-control" name="angle"
-           id="angle" required>
-    <label for="iterations">Iterations</label>
-    <input [(ngModel)]="iterations" (ngModelChange)="valuechange($event)" type="number" class="form-control"
-           name="iterations" id="iterations" required>
+<md-sidenav-container class="container" fullscreen>
+  <md-sidenav #sidenav class="sidenav">
+    <form>
+      <div>
+        <button md-button class="sidenav-close-button" (click)="sidenav.close()"><img
+          src="../assets/ic_close_black_24px.svg"></button>
+      </div>
+      <table class="full-width" cellspacing="0">
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="angleDeg" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="angle" id="angle" placeholder="Angle">
+            </md-input-container>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="iterations" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="iterations" id="iterations" placeholder="Iterations">
+            </md-input-container>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="strokeWidth" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="strokeWidth" id="strokeWidth" placeholder="Stroke Width">
+            </md-input-container>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="canvasHeight" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="canvasHeight" id="canvasHeight" placeholder="Canvas Height">
+            </md-input-container>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="canvasWidth" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="canvasWidth" id="canvasWidth" placeholder="Canvas Width">
+            </md-input-container>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="offsetX" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="offsetX" id="offsetX" placeholder="Offset X">
+            </md-input-container>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="offsetY" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="offsetY" id="offsetY" placeholder="Offset Y">
+            </md-input-container>
+          </td>
+        </tr>
+      </table>
+      <md-slider [value]="offsetXSlide"></md-slider>
+    </form>
+  </md-sidenav>
+
+  <div class="content">
+    <md-toolbar>
+      <button md-button class="toolbar-menu-button" (click)="sidenav.open()"><img
+        src="../assets/ic_menu_black_24px.svg"></button>
+    </md-toolbar>
+    <app-pythagoras class="canvas" [svgHeight]="canvasHeight" [svgWidth]="canvasWidth"
+                    [iteration]="iterations" [angleRad]="angleRad"
+                    [strokeWidth]="strokeWidth" [llCorner]="llCorner" [lrCorner]="lrCorner" [offsetX]="offsetX"
+                    [offsetY]="offsetY"></app-pythagoras>
   </div>
-</form>
+
+</md-sidenav-container>

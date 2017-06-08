@@ -1,6 +1,21 @@
 webpackJsonp([2,4],{
 
-/***/ 13:
+/***/ 149:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(28)(false);
+// imports
+
+
+// module
+exports.push([module.i, "body {\n  background-color: rgb(245, 245, 245);\n  font-family: 'Roboto', sans-serif;\n  margin: 0 !important;\n}\n\n.canvas {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: -1;\n}\n\n.mat-input-placeholder-wrapper {\n  color: grey !important;\n  position: absolute;\n  left: 0;\n  top: -1em;\n  width: 100%;\n  padding-top: 1em;\n  overflow: hidden;\n  pointer-events: none;\n  -webkit-transform: translate3d(0,0,0);\n          transform: translate3d(0,0,0);\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 16:
 /***/ (function(module, exports) {
 
 var g;
@@ -28,22 +43,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 138:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(27)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".canvas {\n  position: absolute;\n  top: 0px;\n  left: 0;\n  z-index: -1;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 165:
+/***/ 204:
 /***/ (function(module, exports) {
 
 /*
@@ -296,15 +296,15 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 169:
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(77);
+module.exports = __webpack_require__(88);
 
 
 /***/ }),
 
-/***/ 27:
+/***/ 28:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(Buffer) {/*
@@ -383,11 +383,11 @@ function toComment(sourceMap) {
   return '/*# ' + data + ' */';
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(30).Buffer))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36).Buffer))
 
 /***/ }),
 
-/***/ 29:
+/***/ 35:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -509,7 +509,7 @@ function fromByteArray (uint8) {
 
 /***/ }),
 
-/***/ 30:
+/***/ 36:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -523,9 +523,9 @@ function fromByteArray (uint8) {
 
 
 
-var base64 = __webpack_require__(29)
-var ieee754 = __webpack_require__(47)
-var isArray = __webpack_require__(48)
+var base64 = __webpack_require__(35)
+var ieee754 = __webpack_require__(53)
+var isArray = __webpack_require__(54)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -2303,11 +2303,11 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(16)))
 
 /***/ }),
 
-/***/ 47:
+/***/ 53:
 /***/ (function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -2398,7 +2398,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 /***/ }),
 
-/***/ 48:
+/***/ 54:
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -2410,16 +2410,16 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 
-/***/ 77:
+/***/ 88:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(138);
+var content = __webpack_require__(149);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(165)(content, {});
+var update = __webpack_require__(204)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -2437,5 +2437,5 @@ if(false) {
 
 /***/ })
 
-},[169]);
+},[209]);
 //# sourceMappingURL=styles.bundle.js.map
