@@ -6,6 +6,7 @@ import {MaterialModule} from '@angular/material';
 
 import {AppComponent} from './app.component';
 import {PythagorasComponent} from './components/pythagoras/pythagoras.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import {PythagorasComponent} from './components/pythagoras/pythagoras.component'
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     MaterialModule,

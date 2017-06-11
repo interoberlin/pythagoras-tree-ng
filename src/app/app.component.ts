@@ -9,7 +9,7 @@ import {DOCUMENT} from '@angular/platform-browser';
 })
 export class AppComponent implements OnInit {
   angleDeg = 0;
-  iterations = 0;
+  iterations = 1;
   strokeWidth = 1;
 
   angleRad = 0;
@@ -18,15 +18,15 @@ export class AppComponent implements OnInit {
   dim = 100;
   llCorner: Point;
   lrCorner: Point;
-  offsetX = 0;
-  offsetY = 0;
+  morphX = 0;
+  morphY = 0;
 
   constructor(@Inject(DOCUMENT) private document: Document) {
   }
 
   ngOnInit() {
-    this.canvasHeight = this.document.body.clientHeight;
-    this.canvasWidth = this.document.body.clientWidth;
+    this.canvasHeight = this.document.body.clientHeight * 0.9;
+    this.canvasWidth = this.document.body.clientWidth * 0.9;
 
     // console.log(this.canvasHeight);
     // console.log(this.canvasWidth);

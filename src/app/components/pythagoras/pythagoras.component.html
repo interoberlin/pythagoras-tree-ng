@@ -1,16 +1,42 @@
 <!--<svg [attr.height]="svgHeight" [attr.width]="svgWidth">-->
 <svg [attr.height]="svgHeight" [attr.width]="svgWidth">
   <!-- <rect [attr.height]="svgHeight" [attr.width]="svgWidth" [attr.fill]="svgFill"/> -->
-  <polygon [attr.points]="pointsRect" [attr.fill]="fill"
+
+  <line class="line-1" [attr.x1]="llCorner.x" [attr.y1]="llCorner.y"
+        [attr.x2]="ulCorner.x" [attr.y2]="ulCorner.y"
+        [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+  <line class="line-2" [attr.x1]="ulCorner.x" [attr.y1]="ulCorner.y"
+        [attr.x2]="urCorner.x" [attr.y2]="urCorner.y"
+        [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+  <line class="line-3" [attr.x1]="urCorner.x" [attr.y1]="urCorner.y"
+        [attr.x2]="lrCorner.x" [attr.y2]="lrCorner.y"
+        [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+  <line [attr.x1]="lrCorner.x" [attr.y1]="lrCorner.y"
+        [attr.x2]="llCorner.x" [attr.y2]="llCorner.y"
+        [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+  <line class="line-4" [attr.x1]="ulCorner.x" [attr.y1]="ulCorner.y"
+        [attr.x2]="topCorner.x" [attr.y2]="topCorner.y"
+        [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+  <line class="line-5" [attr.x1]="topCorner.x" [attr.y1]="topCorner.y"
+        [attr.x2]="urCorner.x" [attr.y2]="urCorner.y"
+        [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+
+  <!--
+  <polygon class="line" [attr.points]="pointsRect" [attr.fill]="fill"
            [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
-  <polygon [attr.points]="pointsTriangle" [attr.fill]="fill"
+  <polygon class="line" [attr.points]="pointsTriangle" [attr.fill]="fill"
            [attr.stroke]="stroke" [attr.stroke-width]="strokeWidth"/>
+   -->
+  <!--
+  <line class="line" x1="1000" y1="200" x2="1000" y2="1000" [attr.stroke]="stroke" [attr
+.stroke-width]="strokeWidth"></line>
+  -->
 </svg>
 
 <app-pythagoras class="canvas" [iteration]="iteration-1" [strokeWidth]="strokeWidth" [svgHeight]="svgHeight"
-                [svgWidth]="svgWidth" [llCorner]="ulCorner" [lrCorner]="topCorner" [offsetX]="offsetX"
-                [offsetY]="offsetY" *ngIf="iteration > 0"></app-pythagoras>
+                [svgWidth]="svgWidth" [llCorner]="ulCorner" [lrCorner]="topCorner" [morphX]="morphX"
+                [morphY]="morphY" *ngIf="iteration > 1"></app-pythagoras>
 
 <app-pythagoras class="canvas" [iteration]="iteration-1" [strokeWidth]="strokeWidth" [svgHeight]="svgHeight"
-                [svgWidth]="svgWidth" [llCorner]="topCorner" [lrCorner]="urCorner" [offsetX]="offsetX"
-                [offsetY]="offsetY" *ngIf="iteration > 0"></app-pythagoras>
+                [svgWidth]="svgWidth" [llCorner]="topCorner" [lrCorner]="urCorner" [morphX]="morphX"
+                [morphY]="morphY" *ngIf="iteration > 1"></app-pythagoras>

@@ -1,11 +1,19 @@
 <md-sidenav-container class="container" fullscreen>
-  <md-sidenav #sidenav class="sidenav" opened="true">
+  <md-sidenav #sidenav class="sidenav" disableClose="false" opened="true">
     <form>
       <div>
         <button md-button class="sidenav-close-button" (click)="sidenav.close()"><img
           src="assets/ic_close_black_24px.svg"></button>
       </div>
       <table class="full-width" cellspacing="0">
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="dim" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="dim" id="dim" placeholder="Size">
+            </md-input-container>
+          </td>
+        </tr>
         <tr>
           <td>
             <md-input-container>
@@ -49,16 +57,16 @@
         <tr>
           <td>
             <md-input-container>
-              <input mdInput [(ngModel)]="offsetX" (ngModelChange)="valueChange($event)" type="number"
-                     class="form-control" name="offsetX" id="offsetX" placeholder="Offset X">
+              <input mdInput [(ngModel)]="morphX" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="morphX" id="morphX" placeholder="Morph X">
             </md-input-container>
           </td>
         </tr>
         <tr>
           <td>
             <md-input-container>
-              <input mdInput [(ngModel)]="offsetY" (ngModelChange)="valueChange($event)" type="number"
-                     class="form-control" name="offsetY" id="offsetY" placeholder="Offset Y">
+              <input mdInput [(ngModel)]="morphY" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="morphY" id="morphY" placeholder="Morph Y">
             </md-input-container>
           </td>
         </tr>
@@ -74,8 +82,8 @@
     </md-toolbar>
     <app-pythagoras class="canvas" [svgHeight]="canvasHeight" [svgWidth]="canvasWidth"
                     [iteration]="iterations" [angleRad]="angleRad"
-                    [strokeWidth]="strokeWidth" [llCorner]="llCorner" [lrCorner]="lrCorner" [offsetX]="offsetX"
-                    [offsetY]="offsetY"></app-pythagoras>
+                    [strokeWidth]="strokeWidth" [llCorner]="llCorner" [lrCorner]="lrCorner" [morphX]="morphX"
+                    [morphY]="morphY"></app-pythagoras>
   </div>
 
 </md-sidenav-container>
