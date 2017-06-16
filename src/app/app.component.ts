@@ -8,13 +8,17 @@ import {DOCUMENT} from '@angular/platform-browser';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  angleDeg = 0;
-  iterations = 1;
-  strokeWidth = 1;
-
+  angleDeg = 45;
   angleRad = 0;
-  canvasHeight = 0;
-  canvasWidth = 0;
+  rotationDeg = 0;
+  rotationRad = 0;
+
+  iterations = 1;
+  stroke = 'black';
+  strokeWidth = 1;
+  fill = 'transparent';
+  svgHeight = 0;
+  svgWidth = 0;
   dim = 100;
   llCorner: Point;
   lrCorner: Point;
@@ -25,17 +29,17 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.canvasHeight = this.document.body.clientHeight * 0.9;
-    this.canvasWidth = this.document.body.clientWidth * 0.9;
-
-    // console.log(this.canvasHeight);
-    // console.log(this.canvasWidth);
+    this.svgHeight = this.document.body.clientHeight * 0.75;
+    this.svgWidth = this.document.body.clientWidth * 0.75;
+    this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
+    this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
   }
 
   valueChange() {
     this.angleRad = this.angleDeg * Math.PI / 180;
+    this.rotationRad = this.rotationDeg * Math.PI / 180;
 
-    this.llCorner = new Point((this.canvasWidth - this.dim) / 2, this.canvasHeight);
-    this.lrCorner = new Point((this.llCorner.x + Math.cos(this.angleRad) * this.dim), (this.llCorner.y - Math.sin(this.angleRad) * this.dim));
+    this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
+    this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
   }
 }

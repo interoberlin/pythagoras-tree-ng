@@ -18,7 +18,15 @@
           <td>
             <md-input-container>
               <input mdInput [(ngModel)]="angleDeg" (ngModelChange)="valueChange($event)" type="number"
-                     class="form-control" name="angle" id="angle" placeholder="Angle">
+                     class="form-control" name="angleDeg" id="angleDeg" placeholder="Angle">
+            </md-input-container>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="rotationDeg" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="rotationDeg" id="rotationDeg" placeholder="Rotation">
             </md-input-container>
           </td>
         </tr>
@@ -41,7 +49,7 @@
         <tr>
           <td>
             <md-input-container>
-              <input mdInput [(ngModel)]="canvasHeight" (ngModelChange)="valueChange($event)" type="number"
+              <input mdInput [(ngModel)]="svgHeight" (ngModelChange)="valueChange($event)" type="number"
                      class="form-control" name="canvasHeight" id="canvasHeight" placeholder="Canvas Height">
             </md-input-container>
           </td>
@@ -49,7 +57,7 @@
         <tr>
           <td>
             <md-input-container>
-              <input mdInput [(ngModel)]="canvasWidth" (ngModelChange)="valueChange($event)" type="number"
+              <input mdInput [(ngModel)]="svgWidth" (ngModelChange)="valueChange($event)" type="number"
                      class="form-control" name="canvasWidth" id="canvasWidth" placeholder="Canvas Width">
             </md-input-container>
           </td>
@@ -80,9 +88,18 @@
       <button md-button class="toolbar-menu-button" (click)="sidenav.open()"><img
         src="assets/ic_menu_black_24px.svg"></button>
     </md-toolbar>
-    <app-pythagoras class="canvas" [svgHeight]="canvasHeight" [svgWidth]="canvasWidth"
-                    [iteration]="iterations" [angleRad]="angleRad"
-                    [strokeWidth]="strokeWidth" [llCorner]="llCorner" [lrCorner]="lrCorner" [morphX]="morphX"
+
+    <app-pythagoras class="canvas"
+                    [angleDeg]="angleDeg"
+                    [iteration]="iterations"
+                    [stroke]="stroke"
+                    [strokeWidth]="strokeWidth"
+                    [fill]="fill"
+                    [svgHeight]="svgHeight"
+                    [svgWidth]="svgWidth"
+                    [llCorner]="llCorner"
+                    [lrCorner]="lrCorner"
+                    [morphX]="morphX"
                     [morphY]="morphY"></app-pythagoras>
   </div>
 
