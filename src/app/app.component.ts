@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.svgHeight = this.document.body.clientHeight * 0.75;
-    this.svgWidth = this.document.body.clientWidth * 0.75;
+    this.svgWidth = this.document.body.clientWidth * 0.90;
     this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
     this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
   }

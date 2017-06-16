@@ -156,7 +156,7 @@ var AppComponent = (function () {
     }
     AppComponent.prototype.ngOnInit = function () {
         this.svgHeight = this.document.body.clientHeight * 0.75;
-        this.svgWidth = this.document.body.clientWidth * 0.75;
+        this.svgWidth = this.document.body.clientWidth * 0.90;
         this.llCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.svgWidth - this.dim) / 2, this.svgHeight);
         this.lrCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
     };
