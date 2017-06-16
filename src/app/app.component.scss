@@ -29,3 +29,20 @@ app-pythagoras {
   height: 90%;
   width: 90%;
 }
+
+.container {
+  position: relative;
+}
+
+.powered-by {
+  color: #9E9E9E;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  position: absolute;
+
+  a {
+    color: #424242;
+    text-decoration: none;
+  }
+}
