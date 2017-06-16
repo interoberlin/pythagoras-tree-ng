@@ -8,14 +8,14 @@ import {DOCUMENT} from '@angular/platform-browser';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  angleDeg = 45;
+  angleDeg = this.getRandomInt(10, 80);
   angleRad = 0;
   rotationDeg = 0;
   rotationRad = 0;
 
-  iterations = 1;
+  iterations = this.getRandomInt(3, 10);
   stroke = 'black';
-  strokeWidth = 1;
+  strokeWidth = this.getRandomInt(1, 3);
   fill = 'transparent';
   svgHeight = 0;
   svgWidth = 0;
@@ -41,5 +41,9 @@ export class AppComponent implements OnInit {
 
     this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
     this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
+  }
+
+  getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 }

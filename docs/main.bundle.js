@@ -26,7 +26,7 @@ exports = module.exports = __webpack_require__(28)(false);
 
 
 // module
-exports.push([module.i, "@-webkit-keyframes offset {\n  to {\n    stroke-dashoffset: 0; } }\n\n@keyframes offset {\n  to {\n    stroke-dashoffset: 0; } }\n\n.line {\n  stroke-dasharray: 400;\n  stroke-dashoffset: 400;\n  -webkit-animation: offset 8s linear forwards;\n          animation: offset 8s linear forwards; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 1.2s;\n          animation-delay: 1.2s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 2.4s;\n          animation-delay: 2.4s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 3.6s;\n          animation-delay: 3.6s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 4.8s;\n          animation-delay: 4.8s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 6s;\n          animation-delay: 6s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 7.2s;\n          animation-delay: 7.2s; }\n", ""]);
+exports.push([module.i, "@-webkit-keyframes offset {\n  to {\n    stroke-dashoffset: 0; } }\n\n@keyframes offset {\n  to {\n    stroke-dashoffset: 0; } }\n\n.line {\n  stroke-dasharray: 400;\n  stroke-dashoffset: 400;\n  -webkit-animation: offset 8s linear forwards;\n          animation: offset 8s linear forwards; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 8.4s;\n          animation-delay: 8.4s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 15.6s;\n          animation-delay: 15.6s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 22.8s;\n          animation-delay: 22.8s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 30s;\n          animation-delay: 30s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 37.2s;\n          animation-delay: 37.2s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 44.4s;\n          animation-delay: 44.4s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 51.6s;\n          animation-delay: 51.6s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 58.8s;\n          animation-delay: 58.8s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 66s;\n          animation-delay: 66s; }\n\n.line-1 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 73.2s;\n          animation-delay: 73.2s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 9.6s;\n          animation-delay: 9.6s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 16.8s;\n          animation-delay: 16.8s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 24s;\n          animation-delay: 24s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 31.2s;\n          animation-delay: 31.2s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 38.4s;\n          animation-delay: 38.4s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 45.6s;\n          animation-delay: 45.6s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 52.8s;\n          animation-delay: 52.8s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 60s;\n          animation-delay: 60s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 67.2s;\n          animation-delay: 67.2s; }\n\n.line-2 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 74.4s;\n          animation-delay: 74.4s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 10.8s;\n          animation-delay: 10.8s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 18s;\n          animation-delay: 18s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 25.2s;\n          animation-delay: 25.2s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 32.4s;\n          animation-delay: 32.4s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 39.6s;\n          animation-delay: 39.6s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 46.8s;\n          animation-delay: 46.8s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 54s;\n          animation-delay: 54s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 61.2s;\n          animation-delay: 61.2s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 68.4s;\n          animation-delay: 68.4s; }\n\n.line-3 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 75.6s;\n          animation-delay: 75.6s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 12s;\n          animation-delay: 12s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 19.2s;\n          animation-delay: 19.2s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 26.4s;\n          animation-delay: 26.4s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 33.6s;\n          animation-delay: 33.6s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 40.8s;\n          animation-delay: 40.8s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 48s;\n          animation-delay: 48s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 55.2s;\n          animation-delay: 55.2s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 62.4s;\n          animation-delay: 62.4s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 69.6s;\n          animation-delay: 69.6s; }\n\n.line-4 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 76.8s;\n          animation-delay: 76.8s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 13.2s;\n          animation-delay: 13.2s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 20.4s;\n          animation-delay: 20.4s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 27.6s;\n          animation-delay: 27.6s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 34.8s;\n          animation-delay: 34.8s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 42s;\n          animation-delay: 42s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 49.2s;\n          animation-delay: 49.2s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 56.4s;\n          animation-delay: 56.4s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 63.6s;\n          animation-delay: 63.6s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 70.8s;\n          animation-delay: 70.8s; }\n\n.line-5 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 78s;\n          animation-delay: 78s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 14.4s;\n          animation-delay: 14.4s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 21.6s;\n          animation-delay: 21.6s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 28.8s;\n          animation-delay: 28.8s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 36s;\n          animation-delay: 36s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 43.2s;\n          animation-delay: 43.2s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 50.4s;\n          animation-delay: 50.4s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 57.6s;\n          animation-delay: 57.6s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 64.8s;\n          animation-delay: 64.8s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 72s;\n          animation-delay: 72s; }\n\n.line-6 {\n  stroke-dasharray: 800;\n  stroke-dashoffset: 800;\n  -webkit-animation: offset 10s linear forwards;\n          animation: offset 10s linear forwards;\n  -webkit-animation-delay: 79.2s;\n          animation-delay: 79.2s; }\n", ""]);
 
 // exports
 
@@ -39,14 +39,14 @@ module.exports = module.exports.toString();
 /***/ 154:
 /***/ (function(module, exports) {
 
-module.exports = "<md-sidenav-container class=\"container\" fullscreen>\n  <md-sidenav #sidenav class=\"sidenav\" disableClose=\"false\" opened=\"true\">\n    <form>\n      <div>\n        <button md-button class=\"sidenav-close-button\" (click)=\"sidenav.close()\"><img\n          src=\"assets/ic_close_black_24px.svg\"></button>\n      </div>\n      <table class=\"full-width\" cellspacing=\"0\">\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"dim\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"dim\" id=\"dim\" placeholder=\"Size\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"angleDeg\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"angle\" id=\"angle\" placeholder=\"Angle\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"iterations\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"iterations\" id=\"iterations\" placeholder=\"Iterations\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"strokeWidth\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"strokeWidth\" id=\"strokeWidth\" placeholder=\"Stroke Width\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"svgHeight\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"svgHeight\" id=\"svgHeight\" placeholder=\"Canvas Height\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"svgWidth\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"svgWidth\" id=\"svgWidth\" placeholder=\"Canvas Width\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"morphX\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"morphX\" id=\"morphX\" placeholder=\"Morph X\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"morphY\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"morphY\" id=\"morphY\" placeholder=\"Morph Y\">\n            </md-input-container>\n          </td>\n        </tr>\n      </table>\n      <md-slider [value]=\"offsetXSlide\"></md-slider>\n    </form>\n  </md-sidenav>\n\n  <div class=\"content\">\n    <md-toolbar>\n      <button md-button class=\"toolbar-menu-button\" (click)=\"sidenav.open()\"><img\n        src=\"assets/ic_menu_black_24px.svg\"></button>\n    </md-toolbar>\n    <app-pythagoras class=\"canvas\" [svgHeight]=\"svgHeight\" [svgWidth]=\"svgWidth\"\n                    [iteration]=\"iterations\" [rotationRad]=\"rotationRad\"\n                    [strokeWidth]=\"strokeWidth\" [llCorner]=\"llCorner\" [lrCorner]=\"lrCorner\" [morphX]=\"morphX\"\n                    [morphY]=\"morphY\"></app-pythagoras>\n  </div>\n\n</md-sidenav-container>\n"
+module.exports = "<md-sidenav-container class=\"container\" fullscreen>\n  <md-sidenav #sidenav class=\"sidenav\" disableClose=\"false\" opened=\"false\">\n    <form>\n      <div>\n        <button md-button class=\"sidenav-close-button\" (click)=\"sidenav.close()\"><img\n          src=\"assets/ic_close_black_24px.svg\"></button>\n      </div>\n      <table class=\"full-width\" cellspacing=\"0\">\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"dim\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"dim\" id=\"dim\" placeholder=\"Size\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"angleDeg\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"angleDeg\" id=\"angleDeg\" placeholder=\"Angle\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"rotationDeg\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"rotationDeg\" id=\"rotationDeg\" placeholder=\"Rotation\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"iterations\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"iterations\" id=\"iterations\" placeholder=\"Iterations\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"strokeWidth\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"strokeWidth\" id=\"strokeWidth\" placeholder=\"Stroke Width\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"svgHeight\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"canvasHeight\" id=\"canvasHeight\" placeholder=\"Canvas Height\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"svgWidth\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"canvasWidth\" id=\"canvasWidth\" placeholder=\"Canvas Width\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"morphX\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"morphX\" id=\"morphX\" placeholder=\"Morph X\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"morphY\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"morphY\" id=\"morphY\" placeholder=\"Morph Y\">\n            </md-input-container>\n          </td>\n        </tr>\n      </table>\n      <md-slider [value]=\"offsetXSlide\"></md-slider>\n    </form>\n  </md-sidenav>\n\n  <div class=\"content\">\n    <md-toolbar>\n      <button md-button class=\"toolbar-menu-button\" (click)=\"sidenav.open()\"><img\n        src=\"assets/ic_menu_black_24px.svg\"></button>\n    </md-toolbar>\n\n    <app-pythagoras class=\"canvas\"\n                    [angleDeg]=\"angleDeg\"\n                    [iteration]=\"iterations\"\n                    [stroke]=\"stroke\"\n                    [strokeWidth]=\"strokeWidth\"\n                    [fill]=\"fill\"\n                    [svgHeight]=\"svgHeight\"\n                    [svgWidth]=\"svgWidth\"\n                    [llCorner]=\"llCorner\"\n                    [lrCorner]=\"lrCorner\"\n                    [morphX]=\"morphX\"\n                    [morphY]=\"morphY\"></app-pythagoras>\n  </div>\n\n</md-sidenav-container>\n"
 
 /***/ }),
 
 /***/ 155:
 /***/ (function(module, exports) {
 
-module.exports = "<!--<svg [attr.height]=\"svgHeight\" [attr.width]=\"svgWidth\">-->\n<svg [attr.height]=\"svgHeight\" [attr.width]=\"svgWidth\">\n  <!-- <rect [attr.height]=\"svgHeight\" [attr.width]=\"svgWidth\" [attr.fill]=\"svgFill\"/> -->\n\n  <line class=\"line-1\" [attr.x1]=\"llCorner.x\" [attr.y1]=\"llCorner.y\"\n        [attr.x2]=\"ulCorner.x\" [attr.y2]=\"ulCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-2\" [attr.x1]=\"ulCorner.x\" [attr.y1]=\"ulCorner.y\"\n        [attr.x2]=\"urCorner.x\" [attr.y2]=\"urCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-3\" [attr.x1]=\"urCorner.x\" [attr.y1]=\"urCorner.y\"\n        [attr.x2]=\"lrCorner.x\" [attr.y2]=\"lrCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line [attr.x1]=\"lrCorner.x\" [attr.y1]=\"lrCorner.y\"\n        [attr.x2]=\"llCorner.x\" [attr.y2]=\"llCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-4\" [attr.x1]=\"ulCorner.x\" [attr.y1]=\"ulCorner.y\"\n        [attr.x2]=\"topCorner.x\" [attr.y2]=\"topCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-5\" [attr.x1]=\"topCorner.x\" [attr.y1]=\"topCorner.y\"\n        [attr.x2]=\"urCorner.x\" [attr.y2]=\"urCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n\n  <!--\n  <polygon class=\"line\" [attr.points]=\"pointsRect\" [attr.fill]=\"fill\"\n           [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <polygon class=\"line\" [attr.points]=\"pointsTriangle\" [attr.fill]=\"fill\"\n           [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n   -->\n  <!--\n  <line class=\"line\" x1=\"1000\" y1=\"200\" x2=\"1000\" y2=\"1000\" [attr.stroke]=\"stroke\" [attr\n.stroke-width]=\"strokeWidth\"></line>\n  -->\n</svg>\n\n<app-pythagoras class=\"canvas\" [iteration]=\"iteration-1\" [strokeWidth]=\"strokeWidth\" [svgHeight]=\"svgHeight\"\n                [svgWidth]=\"svgWidth\" [llCorner]=\"ulCorner\" [lrCorner]=\"topCorner\" [morphX]=\"morphX\"\n                [morphY]=\"morphY\" *ngIf=\"iteration > 1\"></app-pythagoras>\n\n<app-pythagoras class=\"canvas\" [iteration]=\"iteration-1\" [strokeWidth]=\"strokeWidth\" [svgHeight]=\"svgHeight\"\n                [svgWidth]=\"svgWidth\" [llCorner]=\"topCorner\" [lrCorner]=\"urCorner\" [morphX]=\"morphX\"\n                [morphY]=\"morphY\" *ngIf=\"iteration > 1\"></app-pythagoras>\n"
+module.exports = "<svg [attr.height]=\"svgHeight\" [attr.width]=\"svgWidth\">\n  <line [attr.x1]=\"llCorner.x\" [attr.y1]=\"llCorner.y\"\n        [attr.x2]=\"ulCorner.x\" [attr.y2]=\"ulCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line [attr.x1]=\"ulCorner.x\" [attr.y1]=\"ulCorner.y\"\n        [attr.x2]=\"urCorner.x\" [attr.y2]=\"urCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line [attr.x1]=\"urCorner.x\" [attr.y1]=\"urCorner.y\"\n        [attr.x2]=\"lrCorner.x\" [attr.y2]=\"lrCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line [attr.x1]=\"lrCorner.x\" [attr.y1]=\"lrCorner.y\"\n        [attr.x2]=\"llCorner.x\" [attr.y2]=\"llCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line [attr.x1]=\"ulCorner.x\" [attr.y1]=\"ulCorner.y\"\n        [attr.x2]=\"topCorner.x\" [attr.y2]=\"topCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line [attr.x1]=\"topCorner.x\" [attr.y1]=\"topCorner.y\"\n        [attr.x2]=\"urCorner.x\" [attr.y2]=\"urCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n\n  <!-- Construction helpers -->\n  <!--\n  <circle [attr.cx]=\"fooCorner.x\" [attr.cy]=\"fooCorner.y\" r=\"5\" fill=\"red\" ></circle>\n  <circle [attr.cx]=\"barCorner.x\" [attr.cy]=\"barCorner.y\" r=\"5\" fill=\"blue\" ></circle>\n  <circle [attr.cx]=\"topCorner.x\" [attr.cy]=\"topCorner.y\" r=\"5\" fill=\"pink\" ></circle>\n  <line [attr.x1]=\"ulCorner.x\" [attr.y1]=\"ulCorner.y\"\n        [attr.x2]=\"fooCorner.x\" [attr.y2]=\"fooCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line [attr.x1]=\"urCorner.x\" [attr.y1]=\"urCorner.y\"\n        [attr.x2]=\"barCorner.x\" [attr.y2]=\"barCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  -->\n</svg>\n\n<app-pythagoras class=\"canvas\"\n                [angleDeg]=\"angleDeg\"\n                [iteration]=\"iteration-1\"\n                [stroke]=\"stroke\"\n                [strokeWidth]=\"strokeWidth\"\n                [fill]=\"fill\"\n                [svgHeight]=\"svgHeight\"\n                [svgWidth]=\"svgWidth\"\n                [llCorner]=\"ulCorner\"\n                [lrCorner]=\"topCorner\"\n                [morphX]=\"morphX\"\n                [morphY]=\"morphY\" *ngIf=\"iteration > 1\"></app-pythagoras>\n\n<app-pythagoras class=\"canvas\"\n                [angleDeg]=\"angleDeg\"\n                [iteration]=\"iteration-1\"\n                [stroke]=\"stroke\"\n                [strokeWidth]=\"strokeWidth\"\n                [fill]=\"fill\"\n                [svgHeight]=\"svgHeight\"\n                [svgWidth]=\"svgWidth\"\n                [llCorner]=\"topCorner\"\n                [lrCorner]=\"urCorner\"\n                [morphX]=\"morphX\"\n                [morphY]=\"morphY\" *ngIf=\"iteration > 1\"></app-pythagoras>\n"
 
 /***/ }),
 
@@ -140,10 +140,14 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 var AppComponent = (function () {
     function AppComponent(document) {
         this.document = document;
-        this.angleDeg = 0;
-        this.iterations = 1;
-        this.strokeWidth = 1;
+        this.angleDeg = this.getRandomInt(10, 80);
         this.angleRad = 0;
+        this.rotationDeg = 0;
+        this.rotationRad = 0;
+        this.iterations = this.getRandomInt(3, 10);
+        this.stroke = 'black';
+        this.strokeWidth = this.getRandomInt(1, 3);
+        this.fill = 'transparent';
         this.svgHeight = 0;
         this.svgWidth = 0;
         this.dim = 100;
@@ -151,15 +155,19 @@ var AppComponent = (function () {
         this.morphY = 0;
     }
     AppComponent.prototype.ngOnInit = function () {
-        this.svgHeight = this.document.body.clientHeight * 0.9;
-        this.svgWidth = this.document.body.clientWidth * 0.9;
-        // console.log(this.svgHeight);
-        // console.log(this.svgWidth);
+        this.svgHeight = this.document.body.clientHeight * 0.75;
+        this.svgWidth = this.document.body.clientWidth * 0.75;
+        this.llCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.svgWidth - this.dim) / 2, this.svgHeight);
+        this.lrCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
     };
     AppComponent.prototype.valueChange = function () {
         this.angleRad = this.angleDeg * Math.PI / 180;
+        this.rotationRad = this.rotationDeg * Math.PI / 180;
         this.llCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.svgWidth - this.dim) / 2, this.svgHeight);
-        this.lrCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.llCorner.x + Math.cos(this.angleRad) * this.dim), (this.llCorner.y - Math.sin(this.angleRad) * this.dim));
+        this.lrCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
+    };
+    AppComponent.prototype.getRandomInt = function (min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
     };
     return AppComponent;
 }());
@@ -254,59 +262,62 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 
 
 
-var PythagorasComponent = (function () {
-    function PythagorasComponent(document) {
+var PythagorasComponent = PythagorasComponent_1 = (function () {
+    function PythagorasComponent(document, ref) {
         this.document = document;
+        this.ref = ref;
+        // Parameters passed to next iteration
         this.iteration = 0;
-        this.rotationRad = 0;
-        this.dim = 100;
-        this.fill = 'transparent';
+        this.angleDeg = 45;
         this.stroke = 'black';
         this.strokeWidth = 1;
+        this.fill = 'transparent';
+        this.svgHeight = 600;
+        this.svgWidth = 800;
         this.morphX = 0;
         this.morphY = 0;
-        this.pointsRect = '';
-        this.pointsTriangle = '';
-        // console.log(`iteration: ${this.iteration}`);
-        // console.log(`angle: ${this.rotationRad}`);
+        // Calculated values
+        this.rotation = 0;
+        this.angleRad = 0;
+        this.angleRadOpposite = 180;
+        this.dim = 0;
+        this.ulCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]();
+        this.urCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]();
+        this.topCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]();
+        this.fooCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]();
+        this.barCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]();
     }
     PythagorasComponent.prototype.ngOnChanges = function (changes) {
-        console.log('PythagorasComponent onChanges');
-        // console.log(`ngOnChanges ${this.iteration}`);
-        // console.log(`llCorner: ${JSON.stringify(this.llCorner)}`);
-        // console.log(`lrCorner: ${JSON.stringify(this.lrCorner)}`);
-        if (this.llCorner == null || this.lrCorner == null) {
-            console.log('foo');
-            var canvasHeight = this.document.body.clientHeight * 0.9;
-            var canvasWidth = this.document.body.clientWidth * 0.9;
-            this.llCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((canvasWidth - this.dim) / 2, canvasHeight);
-            this.lrCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
+        this.angleRad = this.angleDeg * Math.PI / 180;
+        this.angleRadOpposite = (90 - this.angleDeg) * Math.PI / 180;
+        this.dim = Math.sqrt(Math.pow(this.llCorner.x - this.lrCorner.x, 2) + Math.pow(this.llCorner.y - this.lrCorner.y, 2));
+        var rotation = Math.atan2((this.lrCorner.y - this.llCorner.y), (this.lrCorner.x - this.llCorner.x));
+        if (rotation < 0) {
+            rotation += 2 * Math.PI;
         }
-        var angle = Math.atan2((this.lrCorner.y - this.llCorner.y), (this.lrCorner.x - this.llCorner.x));
-        if (angle < 0) {
-            angle += 2 * Math.PI;
+        if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["h" /* isDevMode */])()) {
+            console.log("iteration: (" + this.iteration + ")");
+            console.log("llCorner: (" + this.llCorner.x + ", " + this.llCorner.y + ")");
+            console.log("lrCorner: (" + this.lrCorner.x + ", " + this.lrCorner.y + ")");
+            console.log("dim: (" + this.dim + ")");
         }
-        var sin = Math.sin(angle);
-        var cos = Math.cos(angle);
+        var rotationSin = Math.sin(rotation);
+        var rotationCos = Math.cos(rotation);
         var dim = Math.sqrt(Math.pow(this.lrCorner.x - this.llCorner.x, 2) + Math.pow(this.lrCorner.y - this.llCorner.y, 2));
-        // console.log(`angle: ${angle}`);
-        // console.log(`sin(angle): ${Math.sin(angle)}`);
-        // console.log(`cos(angle): ${Math.cos(angle)}`);
-        // console.log(`dim: ${dim}`);
-        this.ulCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.llCorner.x + (sin * dim), this.llCorner.y - (cos * dim));
-        this.urCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.lrCorner.x + (sin * dim), this.lrCorner.y - (cos * dim));
-        var uulCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.ulCorner.x + (sin * dim), this.ulCorner.y - (cos * dim));
-        // const uurCorner = new Point(this.urCorner.x + (sin * dim), this.urCorner.y - (cos * dim));
-        this.topCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.ulCorner.x + (this.urCorner.x - this.ulCorner.x + sin * (dim + this.morphX)) / 2, this.ulCorner.y - (this.ulCorner.y - uulCorner.y - sin * (dim + this.morphY)) / 2);
-        // console.log(`ulCorner: ${JSON.stringify(this.ulCorner)}`);
-        // console.log(`urCorner: ${JSON.stringify(this.urCorner)}`);
-        // console.log(`uulCorner: ${JSON.stringify(uulCorner)}`);
-        // console.log(`uurCorner: ${JSON.stringify(uurCorner)}`);
-        // console.log(`topCorner: ${JSON.stringify(this.topCorner)}`);
-        this.pointsRect = this.llCorner.x + "," + this.llCorner.y + " " + this.ulCorner.x + "," + this.ulCorner.y + " " + this.urCorner.x + "," + this.urCorner.y + " " + this.lrCorner.x + "," + this.lrCorner.y;
-        this.pointsTriangle = this.ulCorner.x + "," + this.ulCorner.y + " " + this.urCorner.x + "," + this.urCorner.y + " " + this.topCorner.x + "," + this.topCorner.y;
-        // console.log(`pointsRect: ${this.pointsRect}`);
-        // console.log(`pointsTriangle: ${this.pointsTriangle}`);
+        this.ulCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.llCorner.x + (rotationSin * dim), this.llCorner.y - (rotationCos * dim));
+        this.urCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.lrCorner.x + (rotationSin * dim), this.lrCorner.y - (rotationCos * dim));
+        this.fooCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.ulCorner.x + (Math.sin(Math.PI / 2 - this.angleRad + rotation) * dim), this.ulCorner.y - (Math.cos(Math.PI / 2 - this.angleRad + rotation) * dim));
+        this.barCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.urCorner.x - (Math.sin(Math.PI / 2 - this.angleRadOpposite - rotation) * dim), this.urCorner.y - (Math.cos(Math.PI / 2 - this.angleRadOpposite - rotation) * dim));
+        this.topCorner = PythagorasComponent_1.getIntersection(this.ulCorner, this.fooCorner, this.urCorner, this.barCorner);
+        this.topCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](this.topCorner.x + this.morphX, this.topCorner.y + this.morphY);
+    };
+    PythagorasComponent.getIntersection = function (a, b, c, d) {
+        var det = (a.x - b.x) * (c.y - d.y) - (a.y - b.y) * (c.x - d.x);
+        var l = a.x * b.y - a.y * b.x;
+        var m = c.x * d.y - c.y * d.x;
+        var ix = (l * (c.x - d.x) - m * (a.x - b.x)) / det;
+        var iy = (l * (c.y - d.y) - m * (a.y - b.y)) / det;
+        return new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */](ix, iy);
     };
     return PythagorasComponent;
 }());
@@ -317,23 +328,7 @@ __decorate([
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
     __metadata("design:type", Object)
-], PythagorasComponent.prototype, "rotationRad", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
-    __metadata("design:type", Object)
-], PythagorasComponent.prototype, "dim", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
-    __metadata("design:type", Object)
-], PythagorasComponent.prototype, "svgHeight", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
-    __metadata("design:type", Object)
-], PythagorasComponent.prototype, "svgWidth", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
-    __metadata("design:type", Object)
-], PythagorasComponent.prototype, "fill", void 0);
+], PythagorasComponent.prototype, "angleDeg", void 0);
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
     __metadata("design:type", Object)
@@ -345,6 +340,18 @@ __decorate([
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
     __metadata("design:type", Object)
+], PythagorasComponent.prototype, "fill", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
+    __metadata("design:type", Object)
+], PythagorasComponent.prototype, "svgHeight", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
+    __metadata("design:type", Object)
+], PythagorasComponent.prototype, "svgWidth", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
+    __metadata("design:type", Object)
 ], PythagorasComponent.prototype, "llCorner", void 0);
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
@@ -353,33 +360,22 @@ __decorate([
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
     __metadata("design:type", Object)
-], PythagorasComponent.prototype, "ulCorner", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
-    __metadata("design:type", Object)
-], PythagorasComponent.prototype, "urCorner", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
-    __metadata("design:type", Object)
-], PythagorasComponent.prototype, "topCorner", void 0);
-__decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
-    __metadata("design:type", Object)
 ], PythagorasComponent.prototype, "morphX", void 0);
 __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* Input */])(),
     __metadata("design:type", Object)
 ], PythagorasComponent.prototype, "morphY", void 0);
-PythagorasComponent = __decorate([
+PythagorasComponent = PythagorasComponent_1 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* Component */])({
         selector: 'app-pythagoras',
         template: __webpack_require__(155),
         styles: [__webpack_require__(153)]
     }),
     __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Inject */])(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["b" /* DOCUMENT */])),
-    __metadata("design:paramtypes", [Object])
+    __metadata("design:paramtypes", [Object, typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* ChangeDetectorRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* ChangeDetectorRef */]) === "function" && _a || Object])
 ], PythagorasComponent);
 
+var PythagorasComponent_1, _a;
 //# sourceMappingURL=pythagoras.component.js.map
 
 /***/ }),
