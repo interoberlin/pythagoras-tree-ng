@@ -36,23 +36,7 @@ export class PythagorasComponent implements OnChanges {
   constructor(@Inject(DOCUMENT) private document: Document, private ref: ChangeDetectorRef) {
   }
 
-  /*
-   ngOnInit() {
-   this.dim = 100;
-   this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
-   this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotation) * this.dim), (this.llCorner.y - Math.sin(this.rotation) * this.dim));
-   }
-   */
-
   ngOnChanges(changes: SimpleChanges): void {
-    /*
-     if (this.llCorner == null || this.lrCorner == null) {
-     this.dim = 100;
-     this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
-     this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotation) * this.dim), (this.llCorner.y - Math.sin(this.rotation) * this.dim));
-     }
-     */
-
     this.angleRad = this.angleDeg * Math.PI / 180;
     this.angleRadOpposite = (90 - this.angleDeg) * Math.PI / 180;
     this.dim = Math.sqrt(Math.pow(this.llCorner.x - this.lrCorner.x, 2) + Math.pow(this.llCorner.y - this.lrCorner.y, 2));
@@ -86,6 +70,7 @@ export class PythagorasComponent implements OnChanges {
       this.urCorner.y - (Math.cos(Math.PI / 2 - this.angleRadOpposite - rotation) * dim));
 
     this.topCorner = PythagorasComponent.getIntersection(this.ulCorner, this.fooCorner, this.urCorner, this.barCorner);
+    this.topCorner = new Point(this.topCorner.x + this.morphX, this.topCorner.y + this.morphY);
   }
 
   static getIntersection(a: Point, b: Point, c: Point, d: Point): Point {
