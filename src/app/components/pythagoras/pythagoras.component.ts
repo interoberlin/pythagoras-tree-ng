@@ -36,17 +36,22 @@ export class PythagorasComponent implements OnChanges {
   constructor(@Inject(DOCUMENT) private document: Document, private ref: ChangeDetectorRef) {
   }
 
-  ngOnInit() {
-    this.llCorner = new Point((this.rotation - this.dim) / 2, this.svgHeight);
-    this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotation) * this.dim), (this.llCorner.y - Math.sin(this.rotation) * this.dim));
-  }
+  /*
+   ngOnInit() {
+   this.dim = 100;
+   this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
+   this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotation) * this.dim), (this.llCorner.y - Math.sin(this.rotation) * this.dim));
+   }
+   */
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (this.llCorner == null || this.lrCorner == null) {
-      this.llCorner = new Point((this.rotation - this.dim) / 2, this.svgHeight);
-      this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotation) * this.dim), (this.llCorner.y - Math.sin(this.rotation) * this.dim));
-      this.ref.markForCheck();
-    }
+    /*
+     if (this.llCorner == null || this.lrCorner == null) {
+     this.dim = 100;
+     this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
+     this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotation) * this.dim), (this.llCorner.y - Math.sin(this.rotation) * this.dim));
+     }
+     */
 
     this.angleRad = this.angleDeg * Math.PI / 180;
     this.angleRadOpposite = (90 - this.angleDeg) * Math.PI / 180;
