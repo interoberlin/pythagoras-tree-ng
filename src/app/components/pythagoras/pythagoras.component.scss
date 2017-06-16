@@ -2,7 +2,6 @@ $lines: 6;
 $iterations: 10;
 
 $delayPerLine: 1.2s;
-$delayPerIteration: $lines * $delayPerLine;
 
 @keyframes offset {
   to {
@@ -17,12 +16,10 @@ $delayPerIteration: $lines * $delayPerLine;
 }
 
 @for $l from 1 through $lines {
-  @for $d from 1 through $iterations {
     .line-#{$l} {
       stroke-dasharray: 800;
       stroke-dashoffset: 800;
       animation: offset 10s linear forwards;
-      animation-delay: ($d * $delayPerIteration)+  ($l * $delayPerLine);
-    }
+      animation-delay: $l * $delayPerLine;
   }
 }
