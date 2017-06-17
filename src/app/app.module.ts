@@ -7,11 +7,13 @@ import {MaterialModule} from '@angular/material';
 import {AppComponent} from './app.component';
 import {PythagorasComponent} from './components/pythagoras/pythagoras.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MouseWheelDirective } from './directives/mouse-wheel.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PythagorasComponent
+    PythagorasComponent,
+    MouseWheelDirective
   ],
   imports: [
     BrowserModule,

@@ -46,4 +46,18 @@ export class AppComponent implements OnInit {
   getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
+
+  mouseWheelUp(event: any) {
+    if (this.angleDeg < 80) {
+      this.angleDeg = this.angleDeg + 4;
+      this.valueChange();
+    }
+  }
+
+  mouseWheelDown(event: any) {
+    if (this.angleDeg > 10) {
+      this.angleDeg = this.angleDeg - 4;
+      this.valueChange();
+    }
+  }
 }

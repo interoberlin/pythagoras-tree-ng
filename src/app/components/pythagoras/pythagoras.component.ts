@@ -1,4 +1,4 @@
-import {ChangeDetectorRef, Component, Inject, Input, isDevMode, OnChanges, SimpleChanges} from '@angular/core';
+import {ChangeDetectorRef, Component, Inject, Input, OnChanges, SimpleChanges} from '@angular/core';
 import {Point} from '../../model/Point';
 import {DOCUMENT} from '@angular/platform-browser';
 
@@ -45,13 +45,6 @@ export class PythagorasComponent implements OnChanges {
 
     if (rotation < 0) {
       rotation += 2 * Math.PI;
-    }
-
-    if (isDevMode()) {
-      console.log(`iteration: (${this.iteration})`);
-      console.log(`llCorner: (${this.llCorner.x}, ${this.llCorner.y})`);
-      console.log(`lrCorner: (${this.lrCorner.x}, ${this.lrCorner.y})`);
-      console.log(`dim: (${this.dim})`);
     }
 
     const rotationSin = Math.sin(rotation);

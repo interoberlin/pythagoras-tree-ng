@@ -83,24 +83,25 @@
     </form>
   </md-sidenav>
 
-  <div class="content">
-    <md-toolbar>
-      <button md-button class="toolbar-menu-button" (click)="sidenav.open()"><img
-        src="assets/ic_menu_black_24px.svg"></button>
-    </md-toolbar>
+  <div class="content" appMouseWheel (mouseWheelUp)="mouseWheelUp(event)"
+       (mouseWheelDown)="mouseWheelDown(event)">
+  <md-toolbar>
+    <button md-button class="toolbar-menu-button" (click)="sidenav.open()"><img
+      src="assets/ic_menu_black_24px.svg"></button>
+  </md-toolbar>
 
-    <app-pythagoras class="canvas"
-                    [angleDeg]="angleDeg"
-                    [iteration]="iterations"
-                    [stroke]="stroke"
-                    [strokeWidth]="strokeWidth"
-                    [fill]="fill"
-                    [svgHeight]="svgHeight"
-                    [svgWidth]="svgWidth"
-                    [llCorner]="llCorner"
-                    [lrCorner]="lrCorner"
-                    [morphX]="morphX"
-                    [morphY]="morphY"></app-pythagoras>
+  <app-pythagoras class="canvas"
+                  [angleDeg]="angleDeg"
+                  [iteration]="iterations"
+                  [stroke]="stroke"
+                  [strokeWidth]="strokeWidth"
+                  [fill]="fill"
+                  [svgHeight]="svgHeight"
+                  [svgWidth]="svgWidth"
+                  [llCorner]="llCorner"
+                  [lrCorner]="lrCorner"
+                  [morphX]="morphX"
+                  [morphY]="morphY"></app-pythagoras>
   </div>
 
   <div class="powered-by">
