@@ -36,21 +36,21 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 155:
+/***/ 156:
 /***/ (function(module, exports) {
 
-module.exports = "<md-sidenav-container class=\"container\" fullscreen>\n  <md-sidenav #sidenav class=\"sidenav\" disableClose=\"false\" opened=\"false\">\n    <form>\n      <div>\n        <button md-button class=\"sidenav-close-button\" (click)=\"sidenav.close()\"><img\n          src=\"assets/ic_close_black_24px.svg\"></button>\n      </div>\n      <table class=\"full-width\" cellspacing=\"0\">\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"dim\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"dim\" id=\"dim\" placeholder=\"Size\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"angleDeg\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"angleDeg\" id=\"angleDeg\" placeholder=\"Angle\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"rotationDeg\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"rotationDeg\" id=\"rotationDeg\" placeholder=\"Rotation\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"iterations\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"iterations\" id=\"iterations\" placeholder=\"Iterations\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"strokeWidth\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"strokeWidth\" id=\"strokeWidth\" placeholder=\"Stroke Width\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"svgHeight\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"canvasHeight\" id=\"canvasHeight\" placeholder=\"Canvas Height\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"svgWidth\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"canvasWidth\" id=\"canvasWidth\" placeholder=\"Canvas Width\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"morphX\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"morphX\" id=\"morphX\" placeholder=\"Morph X\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"morphY\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"morphY\" id=\"morphY\" placeholder=\"Morph Y\">\n            </md-input-container>\n          </td>\n        </tr>\n      </table>\n      <md-slider [value]=\"offsetXSlide\"></md-slider>\n    </form>\n  </md-sidenav>\n\n  <div class=\"content\" appMouseWheel (mouseWheelUp)=\"mouseWheelUp(event)\"\n       (mouseWheelDown)=\"mouseWheelDown(event)\">\n  <md-toolbar>\n    <button md-button class=\"toolbar-menu-button\" (click)=\"sidenav.open()\"><img\n      src=\"assets/ic_menu_black_24px.svg\"></button>\n  </md-toolbar>\n\n  <app-pythagoras class=\"canvas\"\n                  [angleDeg]=\"angleDeg\"\n                  [iteration]=\"iterations\"\n                  [stroke]=\"stroke\"\n                  [strokeWidth]=\"strokeWidth\"\n                  [fill]=\"fill\"\n                  [svgHeight]=\"svgHeight\"\n                  [svgWidth]=\"svgWidth\"\n                  [llCorner]=\"llCorner\"\n                  [lrCorner]=\"lrCorner\"\n                  [morphX]=\"morphX\"\n                  [morphY]=\"morphY\"></app-pythagoras>\n  </div>\n\n  <div class=\"powered-by\">\n    powered by <a href=\"https://interoberlin.de\">Interoberlin</a> | source code on <a\n    href=\"https://github.com/interoberlin/pythagoras-tree-ng\">Github</a>\n  </div>\n</md-sidenav-container>\n"
+module.exports = "<md-sidenav-container class=\"container\" fullscreen>\n  <md-sidenav #sidenav class=\"sidenav\" disableClose=\"false\" opened=\"false\">\n    <form>\n      <div>\n        <button md-button class=\"sidenav-close-button\" (click)=\"sidenav.close()\"><img\n          src=\"assets/ic_close_black_24px.svg\"></button>\n      </div>\n      <table class=\"full-width\" cellspacing=\"0\">\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"dim\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"dim\" id=\"dim\" placeholder=\"Size\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"angleDeg\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"angleDeg\" id=\"angleDeg\" placeholder=\"Angle\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"rotationDeg\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"rotationDeg\" id=\"rotationDeg\" placeholder=\"Rotation\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"iterations\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"iterations\" id=\"iterations\" placeholder=\"Iterations\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"strokeWidth\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"strokeWidth\" id=\"strokeWidth\" placeholder=\"Stroke Width\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"svgHeight\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"canvasHeight\" id=\"canvasHeight\" placeholder=\"Canvas Height\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"svgWidth\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"canvasWidth\" id=\"canvasWidth\" placeholder=\"Canvas Width\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"morphX\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"morphX\" id=\"morphX\" placeholder=\"Morph X\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"morphY\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"morphY\" id=\"morphY\" placeholder=\"Morph Y\">\n            </md-input-container>\n          </td>\n        </tr>\n        <tr>\n          <td>\n            <md-input-container>\n              <input mdInput [(ngModel)]=\"timer\" (ngModelChange)=\"valueChange($event)\" type=\"number\"\n                     class=\"form-control\" name=\"timer\" id=\"timer\" placeholder=\"Timer\">\n            </md-input-container>\n          </td>\n        </tr>\n      </table>\n      <md-slider [value]=\"offsetXSlide\"></md-slider>\n    </form>\n  </md-sidenav>\n\n  <div class=\"content\" appMouseWheel (mouseWheelUp)=\"mouseWheelUp(event)\"\n       (mouseWheelDown)=\"mouseWheelDown(event)\">\n    <md-toolbar>\n      <button md-button class=\"toolbar-menu-button\" (click)=\"sidenav.open()\"><img\n        src=\"assets/ic_menu_black_24px.svg\"></button>\n    </md-toolbar>\n\n    <app-pythagoras class=\"canvas\"\n                    [angleDeg]=\"angleDeg\"\n                    [iteration]=\"iterations\"\n                    [stroke]=\"stroke\"\n                    [strokeWidth]=\"strokeWidth\"\n                    [fill]=\"fill\"\n                    [svgHeight]=\"svgHeight\"\n                    [svgWidth]=\"svgWidth\"\n                    [llCorner]=\"llCorner\"\n                    [lrCorner]=\"lrCorner\"\n                    [morphX]=\"morphX\"\n                    [morphY]=\"morphY\"></app-pythagoras>\n  </div>\n\n  <div class=\"powered-by\">\n    powered by <a href=\"https://interoberlin.de\" target=\"_blank\">Interoberlin</a> | source code on <a\n    href=\"https://github.com/interoberlin/pythagoras-tree-ng\" target=\"_blank\">Github</a>\n  </div>\n</md-sidenav-container>\n"
 
 /***/ }),
 
-/***/ 156:
+/***/ 157:
 /***/ (function(module, exports) {
 
 module.exports = "<svg [attr.height]=\"svgHeight\" [attr.width]=\"svgWidth\">\n  <line class=\"line-1\" stroke-linecap=\"round\" [attr.x1]=\"llCorner.x\" [attr.y1]=\"llCorner.y\"\n        [attr.x2]=\"ulCorner.x\" [attr.y2]=\"ulCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-2\" stroke-linecap=\"round\" [attr.x1]=\"ulCorner.x\" [attr.y1]=\"ulCorner.y\"\n        [attr.x2]=\"urCorner.x\" [attr.y2]=\"urCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-3\" stroke-linecap=\"round\" [attr.x1]=\"urCorner.x\" [attr.y1]=\"urCorner.y\"\n        [attr.x2]=\"lrCorner.x\" [attr.y2]=\"lrCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-4\" stroke-linecap=\"round\" [attr.x1]=\"lrCorner.x\" [attr.y1]=\"lrCorner.y\"\n        [attr.x2]=\"llCorner.x\" [attr.y2]=\"llCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-5\" stroke-linecap=\"round\" [attr.x1]=\"ulCorner.x\" [attr.y1]=\"ulCorner.y\"\n        [attr.x2]=\"topCorner.x\" [attr.y2]=\"topCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line class=\"line-6\" stroke-linecap=\"round\" [attr.x1]=\"topCorner.x\" [attr.y1]=\"topCorner.y\"\n        [attr.x2]=\"urCorner.x\" [attr.y2]=\"urCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n\n  <!-- Construction helpers -->\n  <!--\n  <circle [attr.cx]=\"fooCorner.x\" [attr.cy]=\"fooCorner.y\" r=\"5\" fill=\"red\" ></circle>\n  <circle [attr.cx]=\"barCorner.x\" [attr.cy]=\"barCorner.y\" r=\"5\" fill=\"blue\" ></circle>\n  <circle [attr.cx]=\"topCorner.x\" [attr.cy]=\"topCorner.y\" r=\"5\" fill=\"pink\" ></circle>\n  <line [attr.x1]=\"ulCorner.x\" [attr.y1]=\"ulCorner.y\"\n        [attr.x2]=\"fooCorner.x\" [attr.y2]=\"fooCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  <line [attr.x1]=\"urCorner.x\" [attr.y1]=\"urCorner.y\"\n        [attr.x2]=\"barCorner.x\" [attr.y2]=\"barCorner.y\"\n        [attr.stroke]=\"stroke\" [attr.stroke-width]=\"strokeWidth\"/>\n  -->\n</svg>\n\n<app-pythagoras class=\"canvas\"\n                [angleDeg]=\"angleDeg\"\n                [iteration]=\"iteration-1\"\n                [stroke]=\"stroke\"\n                [strokeWidth]=\"strokeWidth\"\n                [fill]=\"fill\"\n                [svgHeight]=\"svgHeight\"\n                [svgWidth]=\"svgWidth\"\n                [llCorner]=\"ulCorner\"\n                [lrCorner]=\"topCorner\"\n                [morphX]=\"morphX\"\n                [morphY]=\"morphY\" *ngIf=\"iteration > 1\"></app-pythagoras>\n\n<app-pythagoras class=\"canvas\"\n                [angleDeg]=\"angleDeg\"\n                [iteration]=\"iteration-1\"\n                [stroke]=\"stroke\"\n                [strokeWidth]=\"strokeWidth\"\n                [fill]=\"fill\"\n                [svgHeight]=\"svgHeight\"\n                [svgWidth]=\"svgWidth\"\n                [llCorner]=\"topCorner\"\n                [lrCorner]=\"urCorner\"\n                [morphX]=\"morphX\"\n                [morphY]=\"morphY\" *ngIf=\"iteration > 1\"></app-pythagoras>\n"
 
 /***/ }),
 
-/***/ 210:
+/***/ 213:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(87);
@@ -121,6 +121,8 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_Point__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rx__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rx__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -134,6 +136,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+
 
 
 
@@ -153,12 +156,34 @@ var AppComponent = (function () {
         this.dim = 100;
         this.morphX = 0;
         this.morphY = 0;
+        this.timer = 25;
     }
     AppComponent.prototype.ngOnInit = function () {
+        var _this = this;
         this.svgHeight = this.document.body.clientHeight * 0.75;
         this.svgWidth = this.document.body.clientWidth * 0.95;
         this.llCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.svgWidth - this.dim) / 2, this.svgHeight);
         this.lrCorner = new __WEBPACK_IMPORTED_MODULE_1__model_Point__["a" /* Point */]((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
+        __WEBPACK_IMPORTED_MODULE_3_rx__["Observable"].timer(this.timer * 1000, this.timer * 1000)
+            .subscribe(function () {
+            _this.reset();
+        });
+        __WEBPACK_IMPORTED_MODULE_3_rx__["Observable"].timer((this.timer + 0.5) * 1000, this.timer * 1000)
+            .subscribe(function () {
+            _this.setRandomValues();
+        });
+    };
+    AppComponent.prototype.reset = function () {
+        this.angleDeg = 0;
+        this.iterations = 0;
+        this.strokeWidth = 0;
+        this.valueChange();
+    };
+    AppComponent.prototype.setRandomValues = function () {
+        this.angleDeg = this.getRandomInt(10, 80);
+        this.iterations = this.getRandomInt(3, 10);
+        this.strokeWidth = this.getRandomInt(1, 3);
+        this.valueChange();
     };
     AppComponent.prototype.valueChange = function () {
         this.angleRad = this.angleDeg * Math.PI / 180;
@@ -186,7 +211,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(155),
+        template: __webpack_require__(156),
         styles: [__webpack_require__(153)]
     }),
     __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Inject */])(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["b" /* DOCUMENT */])),
@@ -377,7 +402,7 @@ __decorate([
 PythagorasComponent = PythagorasComponent_1 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* Component */])({
         selector: 'app-pythagoras',
-        template: __webpack_require__(156),
+        template: __webpack_require__(157),
         styles: [__webpack_require__(154)]
     }),
     __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Inject */])(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["b" /* DOCUMENT */])),
@@ -490,5 +515,5 @@ var environment = {
 
 /***/ })
 
-},[210]);
+},[213]);
 //# sourceMappingURL=main.bundle.js.map

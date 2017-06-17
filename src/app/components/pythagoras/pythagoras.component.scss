@@ -16,10 +16,10 @@ $delayPerLine: 1.2s;
 }
 
 @for $l from 1 through $lines {
-    .line-#{$l} {
-      stroke-dasharray: 800;
-      stroke-dashoffset: 800;
-      animation: offset 10s linear forwards;
-      animation-delay: $l * $delayPerLine;
+  .line-#{$l} {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: offset 10s linear forwards;
+    animation-delay: $l * $delayPerLine;
   }
 }

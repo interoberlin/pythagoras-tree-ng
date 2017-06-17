@@ -1,21 +1,6 @@
 webpackJsonp([2,4],{
 
-/***/ 152:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(28)(false);
-// imports
-
-
-// module
-exports.push([module.i, "body {\n  background-color: rgb(245, 245, 245);\n  font-family: 'Roboto', sans-serif;\n  margin: 0 !important;\n}\n\n.canvas {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: -1;\n}\n\n.mat-input-placeholder-wrapper {\n  color: grey !important;\n  position: absolute;\n  left: 0;\n  top: -1em;\n  width: 100%;\n  padding-top: 1em;\n  overflow: hidden;\n  pointer-events: none;\n  -webkit-transform: translate3d(0,0,0);\n          transform: translate3d(0,0,0);\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 17:
+/***/ 14:
 /***/ (function(module, exports) {
 
 var g;
@@ -43,7 +28,22 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 207:
+/***/ 152:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(28)(false);
+// imports
+
+
+// module
+exports.push([module.i, "body {\n  background-color: rgb(245, 245, 245);\n  font-family: 'Roboto', sans-serif;\n  margin: 0 !important;\n}\n\n.canvas {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: -1;\n}\n\n.mat-input-placeholder-wrapper {\n  color: grey !important;\n  position: absolute;\n  left: 0;\n  top: -1em;\n  width: 100%;\n  padding-top: 1em;\n  overflow: hidden;\n  pointer-events: none;\n  -webkit-transform: translate3d(0,0,0);\n          transform: translate3d(0,0,0);\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 209:
 /***/ (function(module, exports) {
 
 /*
@@ -296,7 +296,7 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 212:
+/***/ 215:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(89);
@@ -2303,7 +2303,7 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(17)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ }),
 
@@ -2419,7 +2419,7 @@ module.exports = Array.isArray || function (arr) {
 var content = __webpack_require__(152);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(207)(content, {});
+var update = __webpack_require__(209)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -2437,5 +2437,5 @@ if(false) {
 
 /***/ })
 
-},[212]);
+},[215]);
 //# sourceMappingURL=styles.bundle.js.map

@@ -78,6 +78,14 @@
             </md-input-container>
           </td>
         </tr>
+        <tr>
+          <td>
+            <md-input-container>
+              <input mdInput [(ngModel)]="timer" (ngModelChange)="valueChange($event)" type="number"
+                     class="form-control" name="timer" id="timer" placeholder="Timer">
+            </md-input-container>
+          </td>
+        </tr>
       </table>
       <md-slider [value]="offsetXSlide"></md-slider>
     </form>
@@ -85,27 +93,27 @@
 
   <div class="content" appMouseWheel (mouseWheelUp)="mouseWheelUp(event)"
        (mouseWheelDown)="mouseWheelDown(event)">
-  <md-toolbar>
-    <button md-button class="toolbar-menu-button" (click)="sidenav.open()"><img
-      src="assets/ic_menu_black_24px.svg"></button>
-  </md-toolbar>
+    <md-toolbar>
+      <button md-button class="toolbar-menu-button" (click)="sidenav.open()"><img
+        src="assets/ic_menu_black_24px.svg"></button>
+    </md-toolbar>
 
-  <app-pythagoras class="canvas"
-                  [angleDeg]="angleDeg"
-                  [iteration]="iterations"
-                  [stroke]="stroke"
-                  [strokeWidth]="strokeWidth"
-                  [fill]="fill"
-                  [svgHeight]="svgHeight"
-                  [svgWidth]="svgWidth"
-                  [llCorner]="llCorner"
-                  [lrCorner]="lrCorner"
-                  [morphX]="morphX"
-                  [morphY]="morphY"></app-pythagoras>
+    <app-pythagoras class="canvas"
+                    [angleDeg]="angleDeg"
+                    [iteration]="iterations"
+                    [stroke]="stroke"
+                    [strokeWidth]="strokeWidth"
+                    [fill]="fill"
+                    [svgHeight]="svgHeight"
+                    [svgWidth]="svgWidth"
+                    [llCorner]="llCorner"
+                    [lrCorner]="lrCorner"
+                    [morphX]="morphX"
+                    [morphY]="morphY"></app-pythagoras>
   </div>
 
   <div class="powered-by">
-    powered by <a href="https://interoberlin.de">Interoberlin</a> | source code on <a
-    href="https://github.com/interoberlin/pythagoras-tree-ng">Github</a>
+    powered by <a href="https://interoberlin.de" target="_blank">Interoberlin</a> | source code on <a
+    href="https://github.com/interoberlin/pythagoras-tree-ng" target="_blank">Github</a>
   </div>
 </md-sidenav-container>
