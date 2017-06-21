@@ -33,6 +33,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.svgHeight = this.document.body.clientHeight * 0.75;
     this.svgWidth = this.document.body.clientWidth * 0.95;
+    this.dim = Math.floor(this.svgHeight / 7);
     this.llCorner = new Point((this.svgWidth - this.dim) / 2, this.svgHeight);
     this.lrCorner = new Point((this.llCorner.x + Math.cos(this.rotationRad) * this.dim), (this.llCorner.y - Math.sin(this.rotationRad) * this.dim));
 
@@ -42,7 +43,7 @@ export class AppComponent implements OnInit {
           this.reset();
         });
 
-    Observable.timer((this.timer + 0.5) * 1000, this.timer * 1000)
+    Observable.timer((this.timer + 2) * 1000, this.timer * 1000)
       .subscribe(
         () => {
           this.setRandomValues();
@@ -50,16 +51,14 @@ export class AppComponent implements OnInit {
   }
 
   reset() {
-    this.angleDeg = 0;
-    this.iterations = 0;
-    this.strokeWidth = 0;
+    this.angleDeg = this.getRandomInt(10, 80);
+    this.iterations = 1;
+    this.strokeWidth = this.getRandomInt(1, 3);
     this.valueChange();
   }
 
   setRandomValues() {
-    this.angleDeg = this.getRandomInt(10, 80);
     this.iterations = this.getRandomInt(3, 10);
-    this.strokeWidth = this.getRandomInt(1, 3);
     this.valueChange();
   }
 
